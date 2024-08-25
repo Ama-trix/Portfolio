@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gauri's Portfolio</title>
+    <link rel="icon" href="resources/image4.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/svg-with-js.min.css"
+        integrity="sha512-Nef0t+7fHdqSdK0uHHjJtjErpW8dJocz9vz2btqXLK9dVQEB3OdnufZ7lO4dQJJb1BvIhGScbk87vm5Z0OTezw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="resources/custom.css">
+    <meta name="author" content="Gauri Sharma">
+    <meta name="description" content="This is Portfolio Website">
+    <meta name="keywords" content="Full Stack Developer">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar p-2 navbar-expand-lg">
+            <a class="navbar-brand text-white nav-link bg-dark px-2 rounded-2" href="#">Gauri Sharma</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i>
+                            Home</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="btn btn-bm bg-warning" href="#" data-bs-toggle="modal"
+                            data-bs-target="#contactModal">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div data-aos="fade-left" data-aos-duration="2000">
+            <img src="resources/image4.jpg" alt="Gauri Sharma's profile picture">
+            <p >Hello, It's <br>
+                <span>Gauri Sharma</span> <br>
+                I am a Full-Stack Java Developer
+            </p>
+        </div>
+    </header>
+    <section class="container-fluid">
+        <div class="row text-center">
+            <div class="col-sm " data-aos="flip-right" data-aos-duration="1500">
+                <p><i class="fa-solid fa-mobile-screen fa-3x m-0"></i></p>
+                <a class="nav-link" href="tel:8826828751">8826828751</a>
+            </div>
+            <div class="col-sm p-2" data-aos="flip-right" data-aos-duration="1500">
+                <p><i class="fa-solid fa-envelope fa-2x"></i></p>
+                <a class="nav-link" href="mailto:gaurisharma0450@gmail.com">gaurisharma0450@gmail.com</a>
+            </div>
+            <div class="col-sm p-2" data-aos="flip-right" data-aos-duration="1500">
+                <p><i class="fa-solid fa-location-dot fa-2x"></i></p>
+                <p>Sector-2, Greater Noida</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="bg-dark text-center text-white py-5">
+        <h2 class="mb-4">Our Projects</h2>
+        <p class="mb-4">Here are some of the projects I’ve proudly developed, showcasing my skills and creativity.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm mb-4"data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="project-item">
+                        <a href="https://github.com/Ama-trix/DigitMart" target="_blank">
+                            <img class="img-fluid rounded shadow-sm" src="resources/project1.jpg" alt="Project 1">
+                        </a>
+                        <p class="mt-3">DigitMart: An electroinc e-commerce website using JSP and Servlet.</p>
+                    </div>
+                </div>
+                <div class="col-sm mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="project-item">
+                        <a href="https://github.com/Ama-trix/MovieMasala"target="_blank">
+                            <img class="img-fluid rounded shadow-sm" src="resources/project2.jpg" alt="Project 2">
+                        </a>
+                        <p class="mt-3">Movie Masala: Movie rating application using Spring Boot.</p>
+                    </div>
+                </div>
+                <div class="col-sm mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+                    <div class="project-item">
+                        <a href="https://github.com/Ama-trix/PeopleTalk"target="_blank">
+                            <img class="img-fluid rounded shadow-sm" src="resources/project3.jpg" alt="Project 3">
+                        </a>
+                        <p class="mt-3">PeopleTalk: A communication platform using Spring Boot.</p>
+                    </div>
+                </div>
+                <div class="col-sm mb-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="project-item" target="_blank">
+                        <a href="https://github.com/Ama-trix/Online-Banking-System">
+                            <img class="img-fluid rounded shadow-sm" src="resources/project4.jpg" alt="Project 3">
+                        </a>
+                        <p class="mt-3">Online Banking System: Banking Web application created using springboot.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section>
+        <h1 class="text-center bold mt-3">Skills</h1><br><hr>
+        <div id="carouselExampleAutoplaying bg-warning" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active carousel-inner">
+                    <img src="resources/Data Structure Certificate.jpg" class="d-block w-100 h-60" alt="...">
+                </div>
+                <div class="carousel-item carousel-inner">
+                    <img src="resources/Java Certificate.jpg" class="d-block w-100 h-60" alt="...">
+                </div>
+                <div class="carousel-item carousel-inner">
+                    <img src="resources/JeeCertificate.jpg" class="d-block w-100 h-60" alt="...">
+                </div>
+                <div class="carousel-item carousel-inner">
+                    <img src="resources/WDCertificate.jpg" class="d-block w-100 h-60" alt="...">
+                </div>
+                <div class="carousel-item carousel-inner">
+                    <img src="resources/javainfs.png" class="d-block w-100 h-60" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section> -->
+    <section class=" bg-dark text-center text-white py-5">
+        <h2 class="mb-4">Certificates</h2>
+        <hr>
+        <div class="container cert ">
+            <div class="row">
+                <div class="col-sm mb-4" data-aos="fade-out" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="project-item">
+                        <img class="img-fluid grounded shadow-sm" src="resources/oraclecert.png" alt="Oracle Certificate ">
+                    </div>
+                    <div class="project-item mt-1">
+                        <img class="img-fluid rounded shadow-sm" src="resources/javainfs.png" alt="Java Certificate" >
+                    </div>
+                </div>
+                <div class="col-sm mb-4" data-aos="fade-out" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="project-item">
+                        <img class="img-fluid rounded shadow-sm" src="resources/Data Structure Certificate copy.jpg" alt="DSA Certificate">
+                    </div>
+                </div>
+                <div class="col-sm mb-4" data-aos="fade-out" data-aos-duration="1000" data-aos-delay="400">
+                    <div class="project-item">
+                        <img class="img-fluid rounded shadow-sm" src="resources/WDCertificate.jpg" alt="WD Certificate">
+                    </div>
+                </div>
+                <div class="col-sm mb-4" data-aos="fade-out" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="project-item">
+                        <img class="img-fluid rounded shadow-sm" src="resources/JeeCertificate.jpg" alt="JEE Certificate">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid bg-light py-5">
+        <div class="container">
+            <h1 class="text-center py-3 m-0 bg-dark text-white"> Experience</h1>
+            <div class="row bg-dark-subtle m-0 py-4 algin-items-center">
+                <div class="col-4 py=2 text-end border-end text-danger">
+                    <h6>Web Development using JSP and Servlet Internship</h6>
+                    <h6>7/2024-8/2024</h6>
+                </div>
+                <div class="col-8">
+                    <p>During this internship, I developed an e-commerce website to facilitate the sale of electronic devices for a local vendor. The application was created using JSP, Servlets, and JavaBeans. Initially, I encountered many difficulties while building the application, but overcoming these challenges allowed me to gain valuable experience and deepen my understanding of the development process. </p>
+                </div>
+                <div class="col-8  text-end border-end">
+                    <p>I worked as a Python tuition teacher, helping students prepare for their Computer Science board examinations. This experience taught me how to effectively manage and engage with individuals from different age groups, and I thoroughly enjoyed the time spent with my students.</p>
+                </div>
+                <div class="col-4 py-2 text-danger">
+                    <h6>Tuition Teacher For Python</h6>
+                    <h6>8/2023-2/2024</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer  class="container-fluid bg-dark p-5 text-center text-white ">
+        <p>
+            &copy; Rights Reserved
+        </p>
+        <a href="https://www.linkedin.com/in/gauri-sharma-788a93246/" target="_blank" class="text-white mx-2"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+        <a href="https://github.com/Ama-trix" target="_blank" class="text-white mx-2 "><i class="fa-brands fa-github fa-2x"></i></a>
+        
+    </footer>
+    <span id="top-button" class="text-warning"><i class="fa-solid fa-circle-arrow-up fa-2x"></i></span>
+    <!-- Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-warning text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Me</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form name="google-sheet">
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" placeholder="Name" name="Name" pattern="[a-zA-Z ]+" maxlength="20"
+                                class="form-control" required>
+                            <div id="emailHelp" class="form-text">We'll never share your details with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Phone No.</label>
+                            <input type="tel" name="Phone" placeholder="Phone No." pattern="[0-9]+" minlength="10"
+                                minlength="10" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" name="Message" id="exampleInputMessage1" rows="3"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="resources/custom.js"></script>
+
+</html>

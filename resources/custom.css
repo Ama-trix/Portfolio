@@ -1,0 +1,66 @@
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.516),rgba(0, 0, 0, 0.51)),url("banner2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 50px;
+    padding-bottom: 100px;
+    color: white;
+    text-transform: uppercase;
+    clip-path: polygon(100% 0,100% 100%,0% 80%, 0 100%, 0 0);
+}
+header img{
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+}
+header>div>p{
+    margin-top: 30px;
+}
+header>div>p>span{
+    font-size: 40px;
+    color:rgb(245, 255, 107);
+    font-weight: bold;
+}
+header>nav{
+    background-color: rgba(255, 255, 255, 0.388);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.navbar-brand{
+    transition: 0.5s;
+}
+.navbar-brand:hover{
+    
+    transform: scale(1.09);
+}
+.carousel-inner {
+    height: 400px; 
+}
+
+.carousel-item img {
+    height: 100%; 
+    width: auto;  
+    object-fit: contain;
+}
+#carouselExampleAutoplaying{
+    filter: brightness(80%);
+}
+#project img{
+    transition: transform 1.10s ease;
+}
+#projects img:hover{
+    transform: scale(.9);
+}
+
+#top-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.cert img{
+    transition: transform 1.10s ease;
+}
+.cert img:hover{
+    transform: scale(1.1);
+}
